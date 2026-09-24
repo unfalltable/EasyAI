@@ -1,6 +1,6 @@
 # 安全策略
 
-当前只维护最新官方发行版。EasyAI 仍处于商业 Beta 阶段。
+当前只维护最新官方发行版。CloseAI 仍处于商业 Beta 阶段。
 
 请通过 GitHub Security Advisory 或仓库所有者的私密联系方式报告安全问题。请勿在公开 Issue 中提交：
 
