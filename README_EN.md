@@ -14,13 +14,14 @@
 
 | Platform | Package | Status |
 | --- | --- | --- |
-| Windows 10/11 x64 | [Installer](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.1/CloseAI-0.1.0-beta.1-Windows-x64.exe) | Beta, currently unsigned |
-| Linux x64 | [AppImage](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.1/CloseAI-0.1.0-beta.1-Linux-x86_64.AppImage) / [Debian and Ubuntu](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.1/CloseAI-0.1.0-beta.1-Linux-amd64.deb) | Beta |
-| Android 7+ | [Test APK](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.1/CloseAI-0.1.0-beta.1-Android-debug.apk) | Sideload test build |
+| Windows 10/11 x64 | [Installer](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.2/CloseAI-0.1.0-beta.2-Windows-x64.exe) | Beta, currently unsigned |
+| macOS 12+ | [Apple silicon test build](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.2/CloseAI-0.1.0-beta.2-macOS-arm64.app.zip) / [Intel test build](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.2/CloseAI-0.1.0-beta.2-macOS-x64.app.zip) | Unsigned, not notarized, pending Mac validation |
+| Linux x64 | [Portable archive](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.2/CloseAI-0.1.0-beta.2-Linux-x86_64.tar.gz) / [Debian and Ubuntu](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.2/CloseAI-0.1.0-beta.2-Linux-amd64.deb) | Beta, package structure verified |
+| Android 7+ | [Test APK](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.2/CloseAI-0.1.0-beta.2-Android-debug.apk) | v2 debug signed; sideloadable |
+| iPhone / iPad | [Open the CloseAI web app](https://closeai.shop) | Device IPA and TestFlight require Apple Developer signing |
 | Browser / PWA | [Open CloseAI](https://closeai.shop) | Available |
-| macOS / iPhone / iPad | Coming later | Apple signing and notarization pending |
 
-SHA-256 files accompany every package. Packages are also available from the [official CloseAI download page](https://closeai.shop). See the [installation guide](docs/INSTALLATION.md).
+Installers are published only through [GitHub Releases](https://github.com/unfalltable/closeai/releases/tag/v0.1.0-beta.2); `closeai.shop` only links to them. Every binary package includes a SHA-256 checksum. See the [installation guide](docs/INSTALLATION.md).
 
 ## Getting started
 
