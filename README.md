@@ -14,13 +14,14 @@
 
 | 平台 | 安装包 | 状态 |
 | --- | --- | --- |
-| Windows 10/11 x64 | [下载安装程序](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.1/CloseAI-0.1.0-beta.1-Windows-x64.exe) | Beta，暂未代码签名 |
-| Linux x64 | [AppImage](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.1/CloseAI-0.1.0-beta.1-Linux-x86_64.AppImage) / [Debian、Ubuntu](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.1/CloseAI-0.1.0-beta.1-Linux-amd64.deb) | Beta |
-| Android 7+ | [测试 APK](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.1/CloseAI-0.1.0-beta.1-Android-debug.apk) | 侧载测试版 |
+| Windows 10/11 x64 | [下载安装程序](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.2/CloseAI-0.1.0-beta.2-Windows-x64.exe) | Beta，暂未代码签名 |
+| macOS 12+ | [Apple 芯片测试包](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.2/CloseAI-0.1.0-beta.2-macOS-arm64.app.zip) / [Intel 测试包](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.2/CloseAI-0.1.0-beta.2-macOS-x64.app.zip) | 未签名、未公证，待 macOS 实机验证 |
+| Linux x64 | [便携包](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.2/CloseAI-0.1.0-beta.2-Linux-x86_64.tar.gz) / [Debian、Ubuntu](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.2/CloseAI-0.1.0-beta.2-Linux-amd64.deb) | Beta，已校验包体结构 |
+| Android 7+ | [测试 APK](https://github.com/unfalltable/closeai/releases/download/v0.1.0-beta.2/CloseAI-0.1.0-beta.2-Android-debug.apk) | v2 调试签名，可侧载 |
+| iPhone / iPad | [打开 CloseAI 网页版](https://closeai.shop) | 真机 IPA / TestFlight 等待 Apple 开发者签名 |
 | 浏览器 / PWA | [打开 CloseAI](https://closeai.shop) | 可直接使用 |
-| macOS / iPhone / iPad | 准备中 | 等待 Apple 签名与公证 |
 
-所有安装包同时发布 SHA-256 校验文件。也可以从 [CloseAI 官方下载页](https://closeai.shop) 获取。具体步骤见[安装指南](docs/INSTALLATION.md)。
+安装包统一发布到 [GitHub Releases](https://github.com/unfalltable/closeai/releases/tag/v0.1.0-beta.2)，`closeai.shop` 只提供跳转下载。每个二进制包均提供 SHA-256 校验文件；具体步骤见[安装指南](docs/INSTALLATION.md)。
 
 ## 使用流程
 
